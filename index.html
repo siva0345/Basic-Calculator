@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="calscontainer">
+        <div>
+          <input style="border: none; color: white" type="text" id="output" />
+          <div class="keys">
+            <button class="singlekey" onclick="clearValue()">C</button>
+            <button class="singlekey" onclick="historyback()">Back</button>
+            <button class="singlekey" onclick="getResult('=')">=</button>
+            <button class="singlekey" onclick="addValue('+')">+</button>
+            <button class="singlekey" onclick="addValue(1)">1</button>
+            <button class="singlekey" onclick="addValue(2)">2</button>
+            <button class="singlekey" onclick="addValue(3)">3</button>
+            <button class="singlekey" onclick="addValue('-')">-</button>
+            <button class="singlekey" onclick="addValue(4)">4</button>
+            <button class="singlekey" onclick="addValue(5)">5</button>
+            <button class="singlekey" onclick="addValue(6)">6</button>
+            <button class="singlekey" onclick="addValue('*')">*</button>
+            <button class="singlekey" onclick="addValue(7)">7</button>
+            <button class="singlekey" onclick="addValue(8)">8</button>
+            <button class="singlekey" onclick="addValue(9)">9</button>
+            <button class="singlekey" onclick="addValue('/')">/</button>
+            <button class="singlekey" onclick="addValue(0)">0</button>
+            <button class="singlekey" onclick="addValue('.')">.</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="cal.js"></script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+#container {
+  border: 1px solid transparent;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  margin: auto;
+}
+#calscontainer {
+  border: 3px solid rgba(3, 3, 181, 0.765);
+  border-radius: 30px;
+  height: 570px;
+  width: 350px;
+  margin: auto;
+  padding: 1px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 119, 0.855),
+    rgba(0, 0, 0, 0.537)
+  );
+}
+#output {
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 160px;
+  display: flex;
+  width: 300px;
+  margin: auto;
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgba(9, 9, 9, 0.614);
+}
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 20px;
+  padding: 20px;
+}
+.singlekey {
+  margin-left: 8px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  border: 2px transparent;
+  width: 70px;
+  height: 50px;
+  font-size: 15px;
+  background-color: rgba(67, 56, 56, 0.71);
+  color: rgba(255, 255, 255, 0.407);
+}
+.singlekey:hover {
+  background-color: rgba(40, 30, 22, 0.54);
+  color: white;
+}
